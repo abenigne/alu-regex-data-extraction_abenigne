@@ -1,0 +1,24 @@
+Customer Support Ticket - 100
+Exported: 2026-08-14 09:12 GMT
+From: a.benigne@alueducation.com
+CC: c.princess@alumni.alueducation.com, si.support@si.alueducation.com
+Reply-to: notan-email-format@gmail..com
+
+Hi team,
+
+I tried to make a payment via https://checkout.payments-hub.co/order/8821?ref=alu
+but got an error. My card is 4539 1488 0343 6467 (Visa test card).
+A colleague also tried 5500-0000-0000-0004 and it failed too.
+
+Please call me back at +250 788 123 456 or my office line (078) 999-2211.
+You can also reach the old line 250798888888 ext. 4.
+
+email me at admin@localhost 
+
+Also visit our new site: www.alu-studentportal.edu.rw 
+
+Thanks,
+Benigne
+a.benigne@alueducation.com
+Invalid alumni format:c.princess@alumni.alueducation..com
+Broken card attempt: 1234 654

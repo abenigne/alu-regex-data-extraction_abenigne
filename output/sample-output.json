@@ -1,0 +1,61 @@
+{
+    "extracted_data": {
+        "emails": {
+            "all_valid_emails": [
+                "a.benigne@alueducation.com",
+                "c.princess@alumni.alueducation.com",
+                "si.support@si.alueducation.com"
+            ],
+            "alu_official": [
+                "a.benigne@alueducation.com"
+            ],
+            "alu_alumni": [
+                "c.princess@alumni.alueducation.com"
+            ],
+            "alu_si": [
+                "si.support@si.alueducation.com"
+            ]
+        },
+        "credit_cards_masked": [
+            "4539 **** **** 6467"
+        ],
+        "phone_numbers": [
+            "+250 788 123 456",
+            "(078) 999-2211",
+            "250798888888 ext. 4"
+        ],
+        "urls": [
+            "https://checkout.payments-hub.co/order/8821?ref=alu",
+            "www.alu-studentportal.edu.rw"
+        ]
+    },
+    "security_audit_log": {
+        "rejected_entries": [
+            {
+                "type": "email",
+                "value": "notan-email-format@gmail..com",
+                "reason": "Malformed domain (contains double dots)"
+            },
+            {
+                "type": "credit_card",
+                "value": "5500-0000-0000-0004",
+                "reason": "Failed Luhn checksum or invalid length"
+            },
+            {
+                "type": "email",
+                "value": "c.princess@alumni.alueducation..com",
+                "reason": "Malformed domain (contains double dots)"
+            },
+            {
+                "type": "credit_card",
+                "value": "1234 654",
+                "reason": "Failed Luhn checksum or invalid length"
+            },
+            {
+                "type": "url",
+                "value": "http://malicious.com/<script>bad()</script>",
+                "reason": "Security Risk: Contains script injection (XSS)"
+            }
+        ]
+    }
+}
