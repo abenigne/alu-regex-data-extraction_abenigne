@@ -35,7 +35,7 @@ def mask_card(card_number):
     for char in card_number:
         if char.isdigit():
               result.append(masked[idx])
-            idx += 1
+              idx += 1
         else:
             result.append(char)
 
